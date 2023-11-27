@@ -69,3 +69,22 @@ use of javascript:
 1) to manupulate html elements / DOM elements
 
 
+operaotors: 
+operaotors are set symbols that are used to perform a specific task
+
+unery operator:  unery operator is an operator that requires only one operand to perform a specific task
+    a++, ++a,
+binary operator: binary operator is an operator that requires two operands to perform a specific task
+    a+b, 
+
+ternary operator: ternary operator is an operator that requires three operands to perform a specific task
+    a?b:c4
+    ?:
+
+1)arithmetic operator: + ,-,*,/,%, **,
+2)assignment operator: =, +=, -=, *=, /=, %=
+3)logical operator: &&, ||, !
+4)comparison operator: ==, ===, !=, !==, >, <, >=, <=
+5)bitwise operator: &, |, ^, ~, <<, >>
+
+        
