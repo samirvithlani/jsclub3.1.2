@@ -87,4 +87,70 @@ ternary operator: ternary operator is an operator that requires three operands t
 4)comparison operator: ==, ===, !=, !==, >, <, >=, <=
 5)bitwise operator: &, |, ^, ~, <<, >>
 
+:descision making statements:
+: descision making statements are used to make a decision based on a condition
+1) if else 3) ternary operator
+2) switch case
+3) loops
+
+if(condition){
+    //statements
+}
+else{
+    //statements
+}
+
+//ladder if else
+if(condition){
+
+}
+else if(condition){
+
+}
+else if(condition){
+
+}
+else{
+
+}
+
+
+
+nested if else:
+
+if(condition){
+
+    if(condition){
+
+    }
+    else{
+
+    }
+}
+else{
+
+    
+}
+
+
+nested if else: 
+ladder if else :
+
+nested task:
+
+point table:
+1) team points -->10 -> qualify
+2) team NRR --> 0.5 -> qualify
+3) team wins --> 5 -> qualify
+4) team draw 0
+
+
+//command game....
+
+var mapchoice = "erangle";
+
+user will select a no of players : 1 --> solo ,2 --> duo --> 4 --> squad
+please select map : --> erangle, miramar,sanhok
+drop location :-> pochinki, school, military base, georgopol
+
         

@@ -15,5 +15,5 @@ console.log(typeof(z))
 z = z + 100 // 23+100 = 123
 console.log(z) //123
 
-alert("your age after 100 years will be: " + z)
+alert("your age after 100 years will be: " + z + " " + typeof(z))
 
