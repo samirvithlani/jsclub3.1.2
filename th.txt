@@ -153,4 +153,11 @@ user will select a no of players : 1 --> solo ,2 --> duo --> 4 --> squad
 please select map : --> erangle, miramar,sanhok
 drop location :-> pochinki, school, military base, georgopol
 
+
+//mutablity and immutablity
+mutablity : changeable modification can allow with same memory location
+immutablity :  modification can not allow with same memory location
+
+string is immutable in javascript
+
         
