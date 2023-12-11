@@ -160,4 +160,10 @@ immutablity :  modification can not allow with same memory location
 
 string is immutable in javascript
 
+"string" upperCase() -->"ram"  "RAM"
+"string" lowerCase() -->"RAM"  "ram"
+
+--> "hi this is india"
+---> i --> repete .count..
+
         
