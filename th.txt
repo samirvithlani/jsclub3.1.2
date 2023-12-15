@@ -166,4 +166,9 @@ string is immutable in javascript
 --> "hi this is india"
 ---> i --> repete .count..
 
+
+var data "naman"
+//reverse...
+//palindrome
+
         
