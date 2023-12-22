@@ -35,10 +35,6 @@ function Calc1(x,y){
         // return ans;
 
         return mul(x,y);
-
-
-
-
 }
 var y = Calc1(10,20);
 console.log("y = ",y);
