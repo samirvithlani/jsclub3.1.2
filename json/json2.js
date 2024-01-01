@@ -17,3 +17,7 @@ console.log(product.qty)
 console.log(product.available)
 console.log(product.capacity)
 console.log(product.colors)
+
+// property:
+// exam:
+// collage :
