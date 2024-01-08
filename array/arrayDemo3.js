@@ -9,3 +9,20 @@ console.log(lang);
 var removedelm = lang.splice(2,3,"punjabi")
 console.log("removing element is " + removedelm);
 console.log(lang);
+
+//or operatpr
+// for(let i=0;i<lang.length;i++){
+//     console.log(lang[i])
+// }
+var x = lang.some((l)=>{
+
+    //return l.startsWith("h")
+    return l.length> 10
+})
+console.log(x)
+
+var x1 = lang.every((l)=>{
+
+    return l.length> 5
+})
+console.log(x1)
