@@ -171,4 +171,12 @@ var data "naman"
 //reverse...
 //palindrome
 
+
+DOM -->
+
+1)id
+2)name
+3)class
+4)tagname
+5)queryselector
         
