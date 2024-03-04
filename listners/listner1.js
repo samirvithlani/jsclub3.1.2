@@ -16,3 +16,8 @@ document.getElementById("btn").addEventListener("dblclick",()=>{
 
     document.getElementById("btn").innerHTML = "Double Clicked";
 })
+
+
+document.getElementsByName("btn")[0].addEventListener("click",()=>{
+    console.log("Button Clicked");
+})
