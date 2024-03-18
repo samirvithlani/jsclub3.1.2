@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .a{
+            width: 100%;
+            display: flex;
+            padding: 25px;
+            background-color:  #3c2f2f;
+        }
+        .n{
+            color: wheat;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            font: bold;
+            padding: 25px;
+            font-size: 20px;
+            
+            transition: 1s;
+            border-radius: 20px;
+
+        }
+        .n:hover{
+            background-color: #fff4e630;
+        }
+        
+    </style>
+    <script src="./navbar.js">
+        
+    </script>
+</head>
+<body>
+    <div class="a">
+        <div><a class="n" href="">Home</a></div>
+        
+        <div id ="prodDiv"><a class = "n" id="product" data-value="product" onmouseover="displayDropDown(event)">Products</a>
+            <!-- <ul>
+                <li>ok</li>
+            </ul> -->
+        </div>
+
+        <div id ="servDiv"><a class = "n" id="service" data-value="service" onclick="displayDropDown(event)">Service</a></div>
+        <div><a class="n" href="">About Us</a></div>
+        <div><a class="n" href="">Sign up</a></div>
+        <div><a class="n" href="">Log Out</a></div>
+    </div>
+
+    </div>
+</body>
+</html>

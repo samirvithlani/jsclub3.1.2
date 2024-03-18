@@ -25,7 +25,7 @@ console.log("getUTCDay  ",date.getUTCDay());
 console.log("getUTCMonth  ",date.getUTCMonth());
 console.log("getUTCFullYear  ",date.getUTCFullYear());
 console.log("getUTCHours  ",date.getUTCHours());
-console.log("getUTCMinutes  ",date.getUTCMinutes());
+console.log("getUlTCMinutes  ",date.getUTCMinutes());
 
 
 
