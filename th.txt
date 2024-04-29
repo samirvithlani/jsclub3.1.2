@@ -226,15 +226,32 @@ PATCH :-->UPDATE DATA
 
 FETCH:---
 
+---------------
 
 
 
+login page : --->
+
+email     :
+password  :
+
+submit button :
+
+js -->
+
+users =[
+    {
+        name:
+        email
+        password
+    },
+    {
+
+    },
+    {
+
+    }
+]
 
 
-
-
-
-
-
-
-        
+if login success : sgtore user data in cookies

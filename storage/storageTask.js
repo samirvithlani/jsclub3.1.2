@@ -19,6 +19,7 @@ var products = [
         description:"lenovo legion"
     }
 ]
+var cart =[]
 
 
 const loadProducts = ()=>{
@@ -48,7 +49,11 @@ const loadProducts = ()=>{
 
         cartbutton.addEventListener("click",()=>{
 
-            localStorage.setItem("product",JSON.stringify(products[i]))
+            cart.push(products[i])
+            //localStorage.setItem("product",JSON.stringify(products[i]))
+            localStorage.setItem("cart",JSON.stringify(cart))
+            //reload page..
+            
 
         })
 
@@ -62,8 +67,21 @@ const loadProducts = ()=>{
         productContainer.appendChild(prodDiv)
     }
 
+ loadCart()   
+}
 
+const loadCart = ()=>{
 
+    
+    console.log("load cart")
 
+        var cartArray = JSON.parse(localStorage.getItem("cart"))
+        console.log(cartArray)
+        console.log(cartArray.length)
+
+        var cartItem = document.getElementById("cartItem")
+        cartItem.innerHTML = "Cart Items: "+cartArray.length
+        
+        
 
 }
