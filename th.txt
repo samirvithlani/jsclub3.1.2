@@ -255,3 +255,22 @@ users =[
 
 
 if login success : sgtore user data in cookies
+
+
+
+
+
+
+
+paragraph
+
+hi this is india
+
+
+hi this is india
+
+
+create html file and 1 js
+
+define 1 paragraph in html file 
+user will enter that para in input box if para is correct then highlght each word in green color else red color and calulate timie to complate that para
